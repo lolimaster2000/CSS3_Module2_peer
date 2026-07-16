@@ -1,0 +1,62 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+header {
+  background-color: crimson;
+}
+
+nav {
+  background-color: aqua;
+  display: inline-block;
+  width: 80%;
+}
+
+nav img {
+  width: 10%;
+}
+
+main {
+  background-color: chartreuse;
+  font-size: 16px;
+}
+
+footer {
+  background-color: brown;
+}
+
+/*
+li {
+  display: table-cell;
+  width: 120px;
+}
+*/
+
+h1 {
+  text-align: center;
+  font-family: 'Courier New', Courier, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: coral;
+}
+
+p {
+  line-height: 150%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-evenly; 
+  align-items: center;
+  row-gap: 20px;
+}
+
+.grid img {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+}
